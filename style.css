@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+button {
+  font-size: 1.5rem;
+  color: rgb(7, 75, 99);
+  width: 200px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+input {
+  height: 30px;
+}
+header {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.remind {
+  border-style: solid;
+  animation-name: changing;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes changing {
+  from {
+    border-style: solid;
+  }
+  to {
+    border-style: dotted;
+    border-color: red;
+  }
+}
+.item {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+.check {
+  text-decoration: line-through;
+}
